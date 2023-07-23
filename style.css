@@ -1,0 +1,305 @@
+body{
+    font-family: verdana;
+    width:100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    position: absolute;
+    background-color:rgb(5, 5, 66);
+    width: 100%;
+    color: white;
+}
+header h2{
+    position: absolute;
+    margin-top: 20px;
+    left:12%;
+}
+
+header{
+    height:12vh;
+}
+footer{
+    position: relative;
+    height: 15vh;
+    bottom: 0;
+    margin-top: 100px;
+}
+footer h4{
+    position: absolute;
+    left:45%
+}
+.nav{
+    height: 10vh;
+    position: absolute;
+    width:100%;
+}
+.nav ul{
+    float: right;
+    margin-right: 70px;
+  }
+.nav ul li{
+    display: inline-block;
+    margin: 0 30px;
+  }
+.nav a{
+    font-size: 18px;
+    position: relative;
+    left: 45%;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.nav ul li a:hover{
+    color: rgb(247, 214, 152); ;
+}
+button{
+    height:8vh;
+    position: relative;
+    left: 45%;
+    top: 10px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(247, 214, 152); ;
+
+}
+.container{
+    width:100%;
+}
+img{
+    width: 100%;
+    height:50vh;
+}
+div{
+ width: 100%;
+}
+.homeimage{
+    display: flex;
+    padding-top: 70px;
+}
+
+.linkholder{
+    grid-template-columns: repeat(5,1fr);
+    display: grid;
+    gap:1.5rem;
+    width:100%;
+    height:20vh;
+    padding-bottom: 30px;
+
+}
+.linkname:hover{
+    background-color: lightblue;
+}
+.linkname{
+    margin-left: 15px;
+    width:80%;
+    position: relative;
+    background-color: rgb(247, 214, 152);
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    height: 50%;
+    text-align: center;
+}
+.linkname:hover{
+    color:midnightblue;
+}
+i{
+    font-size: 50px;
+}
+.fs1{
+    font-size: 20px;
+}
+.fs2{
+    font-size: 40px;
+    padding-left: 30px;
+}
+.fs2:hover{
+    color:rgb(247, 214, 152);
+}
+.link{
+    font-size: 20px;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+}
+.linkimg{
+    width: 100%;
+    height: 20vh;
+
+}
+.Register{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.Login{
+    padding-top: 50px;
+    padding-left: 700px;
+    padding-bottom: 50px;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.formin{
+    gap: 1.5rem;
+    
+}
+form{
+    display: grid;
+    width: 100%;
+    font-size: 20px;
+    gap: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.formbox{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inputs{
+    
+    box-sizing: border-box;
+    
+}
+table{
+    padding-top: 20px;
+    text-align: center;
+    width:80%;
+    background-color:rgb(231, 253, 253);
+}
+.sbtn{
+    text-align: center;
+    width: 30%;
+    height: 8vh;
+}
+.rimg{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.rcont{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.lcont{
+    padding-top: 100px;
+    padding-bottom: 75px;
+    display: block;
+}
+.sidebar{
+    background-color: rgb(161, 223, 254);
+    padding-top: 20px;
+    display: grid;
+    gap:1.5rem;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.sidebar ul li a{
+    text-decoration: none;
+}
+.dcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 100px;
+    height: 100%;
+    gap:1.5rem;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+.dashimages11{
+    display: flex;
+    gap:0.5rem;
+}
+.dashimages12{
+    display: flex;
+    gap:0.5rem;
+}
+.dashimages22{
+    display: flex;
+}
+.pscontainer{
+    padding-top: 100px;
+    height: 100%;
+    text-align: center;
+}
+.psm{
+    width:90%;
+    padding-left: 30px;
+    display:inline-flex;
+    gap:0.5rem;
+}
+.pscont{
+    padding-top: 20px;
+    text-align: center;
+    width:100%;
+    background-color:rgb(238, 240, 149);
+}
+.leavecontainer{
+    padding-top: 100px;
+    height: 100%;
+    text-align: center;
+}
+.leavecont{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.leavecont2{
+    gap: 3rem;
+    display: grid;
+    width:70%;
+    padding-left: 20px;
+}
+.leavecont1{
+    gap: 3rem;
+    width:85%;
+    padding-left: 20px;
+}
+.recrucontainer{
+    padding-top: 100px;
+    height: 100%;
+    text-align: center;
+}
+.rc1{
+    padding-top: 80px;
+}
+.rc11{
+    border-radius: .5rem;
+  padding: .75rem 1rem .25rem; 
+}
+.rec{
+    background-color: midnightblue;
+    color: white;
+    padding-left: 20px;
+    width: 50%;
+    font-size: 25px;
+}
+.recrucont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.recrucont1{
+    display: flex;
+    justify-content: center;
+}
+.concontainer{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
